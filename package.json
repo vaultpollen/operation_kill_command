@@ -1,0 +1,24 @@
+{
+  "name": "operation_kill_command",
+  "version": "1.0.0",
+  "main": "logging.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaultpollen/operation_kill_command.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaultpollen/operation_kill_command/issues"
+  },
+  "homepage": "https://github.com/vaultpollen/operation_kill_command#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

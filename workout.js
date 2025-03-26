@@ -69,37 +69,3 @@ function addExercise(exercises) {
     // Append the button
     document.getElementById("exercise-list").appendChild(addButton);
 }
-
-function initializeExerciseLog(exerciseName, category) {
-    // Load existing JSON data
-    let jsonData = JSON.parse(localStorage.getItem("log")) || {workouts: [] };
-
-    let exercise = jsonData.workouts.find(workout => workout.exercise === exerciseName);
-
-    if (!exercise) {
-        // Exercise not found, create a new entry with default values
-        const today = new Date();
-        const defaultDate = new Date(today.setDate(today.getDate() - 30)).toISOString().split('T')[0];
-
-        const newExercise = {
-            exercise: exerciseName,
-            category: category,
-            lastPerformed: defaultDate,
-            log: [
-                {
-                    date: defaultDate,
-                    repts: [0, 0, 0],
-                    weight: "BW",
-                    newGoal: {
-                        sets: [0, 0, 0],
-                    }
-                }
-            ]
-        };
-
-        jsonData.workouts.push(newExercise);
-
-        // Save the updated JSON file
-        localStorage.setItem("workoutLog", JSON.stringify(jsonData));
-    }
-}

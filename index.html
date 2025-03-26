@@ -17,7 +17,16 @@
         </div>
         <div id="exercise-list" class="exercise-list">
         </div>
+        <!-- Will contain a heatmap dynamically loaded from the JSON log file to display exercises and their last performed dates -->
+        <div id="heatmap-container">
+        </div>
     </div>
-    <script src="script.js"></script>
+    <script src="workout.js"></script>
+    <script src="logging.js"></script>
+    <script>
+        window.onload = function() {
+            initializeExerciseLog("Push");
+        }
+    </script>
 </body>
 </html>
