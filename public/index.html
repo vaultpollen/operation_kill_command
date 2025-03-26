@@ -15,10 +15,14 @@
             <button onclick="loadExercises('Legs')">Legs</button>
             <button onclick="loadExercises('Custom')">Custom</button>
         </div>
-        <div id="exercise-list" class="exercise-list">
+        <div id="exercise-list-container">
+            <div id="exercise-list"></div>
         </div>
-        <!-- Will contain a heatmap dynamically loaded from the JSON log file to display exercises and their last performed dates -->
+        <div id="begin-workout"></div>
+            <button>Begin Workout</button>
+        <!-- Contains a heatmap dynamically loaded from the JSON log file to display exercises and their last performed dates -->
         <div id="heatmap-container">
+            <div id="heatmap"></div>
         </div>
     </div>
     <script src="workout.js"></script>
@@ -31,5 +35,6 @@
             initializeExerciseLog("Accessories");
         }
     </script>
+    <script src="heatmap.js"></script>
 </body>
 </html>

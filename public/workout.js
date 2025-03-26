@@ -11,16 +11,26 @@ async function fetchExerciseData() {
 
 async function loadExercises(workoutType) {
     const exerciseMaster = await fetchExerciseData();
+    const logData = await fetchLogData();
+
     const exerciseListContainer = document.getElementById("exercise-list");
+    const heatmapContainer = document.getElementById("heatmap");
+
+    // Clear previous containers
     exerciseListContainer.innerHTML = "";
+    heatmapContainer.innerHTML = "";
 
     let exercisesToDisplay = [];
 
+    // Get relevant exercises based on workout type (Custom is just every exercise available)
     if (workoutType === "Custom") {
         exercisesToDisplay = [...exerciseMaster.Push, ...exerciseMaster.Pull, exerciseMaster.Legs, ...exerciseMaster.Accessories || []];
     } else {
         exercisesToDisplay = exerciseMaster[workoutType] || [];
     }
+
+    // Creates heatmap
+    generateHeatmap(exercisesToDisplay, logData);
 
     // Creates initial dropdown menu
     createExerciseDropdown(exercisesToDisplay);
