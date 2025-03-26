@@ -29,10 +29,12 @@ async function loadExercises(workoutType) {
         exercisesToDisplay = exerciseMaster[workoutType] || [];
     }
 
-    // Creates heatmap
-    generateHeatmap(exercisesToDisplay, logData);
+    // Only generate heatmap if there are exercises
+    if (exercisesToDisplay.length > 0) {
+        generateHeatmap(exercisesToDisplay, logData);
+    }
 
-    // Creates initial dropdown menu
+    // Ensure dropdown always regenerates
     createExerciseDropdown(exercisesToDisplay);
 }
 
@@ -55,8 +57,17 @@ function createExerciseDropdown(exercises) {
         exerciseDropDown.appendChild(option);
     });
 
-    // Append the dropdown
+    // Create a button to remove exercises
+    const removeButton = document.createElement("button");
+    removeButton.textContent = "- Remove Exercise";
+    removeButton.classList.add("removeexercise-btn");
+
+    // Event listener to remove dropdown elements
+    removeButton.addEventListener("click", () => removeExercise(exerciseDiv, removeButton));
+
+    // Append the dropdown and remove button
     exerciseDiv.appendChild(exerciseDropDown);
+    exerciseDiv.appendChild(removeButton);
     exerciseListContainer.appendChild(exerciseDiv);
 
     // Append a button to add more exercises
@@ -65,17 +76,64 @@ function createExerciseDropdown(exercises) {
 
 // Function to add more exercises dynamically
 function addExercise(exercises) {
-    // Remove add exercise button
+    // Remove add exercise button if already present
     const existingButton = document.getElementById("add-exercise-btn");
     if (existingButton) {
         existingButton.remove();
     }
 
-    const addButton = document.createElement("button");
-    addButton.id = "add-exercise-btn";
-    addButton.textContent = "+ Add Exercise";
-    addButton.onclick = () => createExerciseDropdown(exercises);
+    const exerciseListContainer = document.getElementById("exercise-list");
 
-    // Append the button
-    document.getElementById("exercise-list").appendChild(addButton);
+    // Check if dropdown elements are present
+    const exerciseContainers = exerciseListContainer.getElementsByClassName("exercise-container");
+
+    // Remove the button only if no elements are present
+    if (exerciseContainers.length > 0) {
+        // Create the button
+        const addButton = document.createElement("button");
+        addButton.id = "add-exercise-btn";
+        addButton.textContent = "+ Add Exercise";
+        addButton.classList.add("animated-button");
+        addButton.onclick = () => createExerciseDropdown(exercises);
+
+        // Append the button
+        exerciseListContainer.appendChild(addButton);
+    }
+}
+
+// Function to remove an exercise (and the remove button)
+function removeExercise() {
+    const heatmapContainer = document.getElementById("heatmap");
+
+    // Remove exercise dropdown
+    const exerciseContainers = document.getElementsByClassName("exercise-container");
+    if (exerciseContainers.length > 0) {
+        exerciseContainers[exerciseContainers.length - 1].remove();
+    }
+
+    // Remove add exercise button if no dropdown elements are present
+    if (exerciseContainers.length === 0) {
+        const addButton = document.getElementById("add-exercise-btn");
+        if (addButton) addButton.remove();
+
+        // Clear heatmap
+        heatmapContainer.innerHTML = "";
+    }
+}
+
+function beginWorkout() {
+    const exerciseListContainer = document.getElementById("exercise-list");
+    const heatmapContainer = document.getElementById("heatmap")
+    const exerciseContainers = document.getElementsByClassName("exercise-container");
+
+
+    // Clear elements to make space for workout dashboard
+    if (exerciseContainers.length > 0) {
+        const addButton = document.getElementById("add-exercise-btn");
+        //exerciseListContainer.remove();
+        if (addButton) addButton.remove();
+    } 
+    
+    // Clear heatmap
+    heatmapContainer.innerHTML = "";
 }

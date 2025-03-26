@@ -15,7 +15,8 @@
     height: 100vh;
     flex-direction: column;
     text-align: center;
-    overflow: hidden; /* Prevents overflow on small screens */
+    overflow: auto;
+    height: auto;
   }
   
   /* Title Styles */
@@ -82,9 +83,44 @@
     transition: transform 0.2s;
   }
 
-  .exercise-item:hover {
+  .heatmap-item:hover {
     transform: scale(1.05);
   }
+
+  #begin-workout {
+    animation: fadeIn 0.5s ease-out, slideIn 0.5s ease-out;
+  }
+
+  .heatmap-item {
+    animation: fadeIn 0.5s ease-out, slideIn 0.5s ease-out;
+  }
+
+  .exercise-container {
+    animation: fadeInScale 0.4s ease-out;
+  }
+
+  #add-exercise-btn {
+    animation: slideUp 0.4s ease-out;
+  }
+
+  .remove-exercise-btn {
+    background-color: #e11d48; /* Red color */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-exercise-btn:hover {
+    background-color: #b91c38; /* Darker red */
+}
+
+.remove-exercise-btn:active {
+    transform: scale(0.98); /* Subtle scaling effect when pressed */
+}
   
   @keyframes fadeIn {
     0% {
@@ -92,6 +128,28 @@
       transform: translateY(-30px);
     }
     100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInScale {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
       opacity: 1;
       transform: translateY(0);
     }

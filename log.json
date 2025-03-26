@@ -549,6 +549,424 @@
           }
         }
       ]
+    },
+    {
+      "exercise": "Pushup",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "bodyweight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Overhead Press",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Chest Squeeze",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Tricep Dip",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "bodyweight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Lateral Raise",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Skullcrushers",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Front Lateral Raise",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Tricep Kickbacks",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Dumbbell Chest Press",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Chest Fly Machine",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Smith Bench Press",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Incline Press Machine",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "EZ-Curl Skullcrushers",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Dumbbell Overhead",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Tricep Extension Machine",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Bench Press",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Band Crossover",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "band",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Band Tricep Extension",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "band",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Band Front Lat Raise",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "band",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
     }
   ]
 }
