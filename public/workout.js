@@ -136,4 +136,43 @@ function beginWorkout() {
     
     // Clear heatmap
     heatmapContainer.innerHTML = "";
+
+    // Create a new container for the workout inputs
+    const workoutInputContainer = document.createElement("div");
+    workoutInputContainer.id = "workout-input-container";
+
+    // Loop over each exercise container in the exercise list
+    Array.from(exerciseContainers).forEach(exerciseDiv => {
+        const exerciseName = exerciseDiv.querySelector("select").value;
+
+        // Create a box for the exercise with 3 input fields
+        const exerciseBox = document.createElement("div");
+        exerciseBox.classList.add("exercise-box");
+
+        // Create 3 input fields
+        for (let i = 1; i <=3; i++) {
+            const inputField = document.createElement("input");
+            inputField.type = "number";
+            inputField.placeholder = `Set ${i} for ${exerciseName}`;
+            inputField.classList.add("exercise-input");
+            exerciseBox.appendChild(inputField);
+        }
+
+        // Create the "Commit" button to write the inputs to the log file
+        const commitButton = document.createElement("button");
+        commitButton.textContent = "Commit";
+        commitButton.classList.add("commit-button");
+
+        // Event listener for commit action (define logic later)
+        commitButton.addEventListener("click", () => {
+            console.log(`Committing data for ${exerciseName}`);
+            // Logic here
+        });
+
+        exerciseBox.appendChild(commitButton);
+
+        workoutInputContainer.appendChild(exerciseBox);
+    });
+
+    document.body.appendChild(workoutInputContainer);
 }
