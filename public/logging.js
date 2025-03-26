@@ -61,7 +61,7 @@ async function initializeExerciseLog(category) {
 
     // Iterate through all exercises in the master list
     exercises.forEach((exerciseInfo) => {
-        const { name: exerciseName, category } = exerciseInfo;
+        const { name: exerciseName, category, type } = exerciseInfo;
 
         // Check if the exercise already exists in the log
         let exercise = jsonData.workouts.find(workout => workout.exercise === exerciseName);
@@ -78,10 +78,10 @@ async function initializeExerciseLog(category) {
                 log: [
                     {
                         date: defaultDate,
-                        reps: [0, 0, 0],
-                        weight: "BW",
+                        set: [0, 0, 0],
+                        type: type,
                         newGoal: {
-                            sets: [0, 0, 0],
+                            newSet: [0, 0, 0],
                         }
                     }
                 ]

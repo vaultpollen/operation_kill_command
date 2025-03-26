@@ -1,24 +1,56 @@
 {
-        "Push": [
-        { "name": "Pushup", "type": "bodyweight" },
-        { "name": "Overhead Press", "type": "weight" },
-        { "name": "Chest Squeeze", "type": "weight" },
-        { "name": "Tricep Dip", "type": "bodyweight" },
-        { "name": "Lateral Raise", "type": "weight" },
-        { "name": "Skullcrushers", "type": "weight" },
-        { "name": "Front Lateral Raise", "type": "weight" },
-        { "name": "Tricep Kickbacks", "type": "weight" },
-        { "name": "Dumbbell Chest Press", "type": "weight" },
-        { "name": "Chest Fly Machine", "type": "weight" },
-        { "name": "Smith Bench Press", "type": "weight" },
-        { "name": "Incline Press Machine", "type": "weight" },
-        { "name": "EZ-Curl Skullcrushers", "type": "weight" },
-        { "name": "Dumbbell Overhead", "type": "weight" },
-        { "name": "Tricep Extension Machine", "type": "weight" },
-        { "name": "Bench Press", "type": "weight" },
-        { "name": "Band Crossover", "type": "band" },
-        { "name": "Band Tricep Extension", "type": "band" },
-        { "name": "Band Front Lat Raise", "type": "band" }
-        ]
-  }
-  
+      "Push": [
+      { "name": "Pushup", "type": "bodyweight" },
+      { "name": "Overhead Press", "type": "weight" },
+      { "name": "Chest Squeeze", "type": "weight" },
+      { "name": "Tricep Dip", "type": "bodyweight" },
+      { "name": "Lateral Raise", "type": "weight" },
+      { "name": "Skullcrushers", "type": "weight" },
+      { "name": "Front Lateral Raise", "type": "weight" },
+      { "name": "Tricep Kickbacks", "type": "weight" },
+      { "name": "Dumbbell Chest Press", "type": "weight" },
+      { "name": "Chest Fly Machine", "type": "weight" },
+      { "name": "Smith Bench Press", "type": "weight" },
+      { "name": "Incline Press Machine", "type": "weight" },
+      { "name": "EZ-Curl Skullcrushers", "type": "weight" },
+      { "name": "Dumbbell Overhead", "type": "weight" },
+      { "name": "Tricep Extension Machine", "type": "weight" },
+      { "name": "Bench Press", "type": "weight" },
+      { "name": "Band Crossover", "type": "band" },
+      { "name": "Band Tricep Extension", "type": "band" },
+      { "name": "Band Front Lat Raise", "type": "band" }
+      ],
+      "Pull": [
+      {"name": "Band Curls", "type": "band"},
+      {"name": "Band Deadlift", "type": "band"},
+      {"name": "Band Pull-Apart", "type": "band"},
+      {"name": "Band Pulldown", "type": "band"},
+      {"name": "Band Row", "type": "band"},
+      {"name": "Band Shrugs", "type": "band"},
+      {"name": "Band Upright Row", "type": "band"},
+      {"name": "Barbell Row", "type": "weight"},
+      {"name": "Barbell Shrugs", "type": "weight"},
+      {"name": "Bicep Curl Machine", "type": "weight"},
+      {"name": "Chin-Up Negatives", "type": "bodyweight"},
+      {"name": "Close Lat Pulldown", "type": "weight"},
+      {"name": "Deadlift", "type": "weight"},
+      {"name": "Dumbbell Deadlift", "type": "weight"},
+      {"name": "Dumbbell Row", "type": "weight"},
+      {"name": "Dumbbell Shrugs", "type": "weight"},
+      {"name": "EZ-Bar Curls", "type": "weight"},
+      {"name": "Hammer Curls", "type": "weight"},
+      {"name": "Kneeling Shrugs", "type": "weight"},
+      {"name": "Row Machine", "type": "weight"},
+      {"name": "Seated Cable Row", "type": "weight"},
+      {"name": "SL SLDL", "type": "weight"},
+      {"name": "Smith Deadlift", "type": "weight"},
+      {"name": "Upright Rows", "type": "weight"},
+      {"name": "Wide Lat Pulldown", "type": "weight"}
+      ],
+      "Legs": [
+
+      ],
+      "Accessories": [
+
+      ]
+  }  

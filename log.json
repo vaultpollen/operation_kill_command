@@ -1,19 +1,19 @@
 {
   "workouts": [
     {
-      "exercise": "Pushup",
+      "exercise": "Band Curls",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "band",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -23,19 +23,19 @@
       ]
     },
     {
-      "exercise": "Overhead Press",
+      "exercise": "Band Deadlift",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "band",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -45,19 +45,19 @@
       ]
     },
     {
-      "exercise": "Chest Squeeze",
+      "exercise": "Band Pull-Apart",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "band",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -67,19 +67,19 @@
       ]
     },
     {
-      "exercise": "Tricep Dip",
+      "exercise": "Band Pulldown",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "band",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -89,19 +89,19 @@
       ]
     },
     {
-      "exercise": "Lateral Raise",
+      "exercise": "Band Row",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "band",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -111,19 +111,19 @@
       ]
     },
     {
-      "exercise": "Skullcrushers",
+      "exercise": "Band Shrugs",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "band",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -133,19 +133,19 @@
       ]
     },
     {
-      "exercise": "Front Lateral Raise",
+      "exercise": "Band Upright Row",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "band",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -155,19 +155,19 @@
       ]
     },
     {
-      "exercise": "Tricep Kickbacks",
+      "exercise": "Barbell Row",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -177,19 +177,19 @@
       ]
     },
     {
-      "exercise": "Dumbbell Chest Press",
+      "exercise": "Barbell Shrugs",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -199,19 +199,19 @@
       ]
     },
     {
-      "exercise": "Chest Fly Machine",
+      "exercise": "Bicep Curl Machine",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -221,19 +221,19 @@
       ]
     },
     {
-      "exercise": "Smith Bench Press",
+      "exercise": "Chin-Up Negatives",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "bodyweight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -243,19 +243,19 @@
       ]
     },
     {
-      "exercise": "Incline Press Machine",
+      "exercise": "Close Lat Pulldown",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -265,19 +265,19 @@
       ]
     },
     {
-      "exercise": "EZ-Curl Skullcrushers",
+      "exercise": "Deadlift",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -287,19 +287,19 @@
       ]
     },
     {
-      "exercise": "Dumbbell Overhead",
+      "exercise": "Dumbbell Deadlift",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -309,19 +309,19 @@
       ]
     },
     {
-      "exercise": "Tricep Extension Machine",
+      "exercise": "Dumbbell Row",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -331,19 +331,19 @@
       ]
     },
     {
-      "exercise": "Bench Press",
+      "exercise": "Dumbbell Shrugs",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -353,19 +353,19 @@
       ]
     },
     {
-      "exercise": "Band Crossover",
+      "exercise": "EZ-Bar Curls",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -375,19 +375,19 @@
       ]
     },
     {
-      "exercise": "Band Tricep Extension",
+      "exercise": "Hammer Curls",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
               0,
               0,
               0
@@ -397,19 +397,151 @@
       ]
     },
     {
-      "exercise": "Band Front Lat Raise",
+      "exercise": "Kneeling Shrugs",
       "lastPerformed": "2025-02-24",
       "log": [
         {
           "date": "2025-02-24",
-          "reps": [
+          "set": [
             0,
             0,
             0
           ],
-          "weight": "BW",
+          "type": "weight",
           "newGoal": {
-            "sets": [
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Row Machine",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Seated Cable Row",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "SL SLDL",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Smith Deadlift",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Upright Rows",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Wide Lat Pulldown",
+      "lastPerformed": "2025-02-24",
+      "log": [
+        {
+          "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
               0,
               0,
               0
