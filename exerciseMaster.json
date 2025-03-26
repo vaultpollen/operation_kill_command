@@ -1,7 +1,6 @@
 {
-    const exerciseMaster = {
         "Push": [
-        { "name": "Pushup", "type": "bodyweight" },
+        { "name": "Pushup", "type": "push" },
         { "name": "Overhead Press", "type": "weight" },
         { "name": "Chest Squeeze", "type": "weight" },
         { "name": "Tricep Dip", "type": "bodyweight" },
@@ -21,6 +20,5 @@
         { "name": "Band Tricep Extension", "type": "band" },
         { "name": "Band Front Lat Raise", "type": "band" }
         ]
-    }
   }
   

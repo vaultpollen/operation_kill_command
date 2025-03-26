@@ -3,17 +3,29 @@ function selectDay(day) {
     resultDiv.textContent = `You've selected: ${day}`;
 }
 
-function loadExercises() {
-    const workoutType = document.getElementById("workout-type").ariaValueMax;
+function loadExercises(workoutType) {
     const exerciseListContainer = document.getElementById("exercise-list");
     exerciseListContainer.innerHTML = "";
+
+    fetch("exerciseMaster.json")
+        .then(response => response.json())
+        .then(exerciseMaster => {
+            let exercisesToDisplay = workoutType === "Custom"
+            ? [...exerciseMaster.Push, ...exerciseMaster.Pull, ...exerciseMaster.Legs, ...exercuseMaster.Custom]
+            : exerciseMaster[workoutType];
+
+            createExerciseDropdown(exercisesToDisplay);
+        })
+        .catch(error => {
+            console.error("Error loading exercise data:", error);
+        });
 
     let exercisesToDisplay = [];
 
     if (workoutType == "Custom") {
         exercisesToDisplay = [...exerciseMaster.Push, ...exerciseMaster.Pull, ...exerciseMaster.Legs, ...exerciseMaster.Accessories];
     } else {
-        exercisesT = exerciseMaster[workoutType];
+        exercisesToDisplay = exerciseMaster[workoutType];
     }
 
     createExerciseDropdown(exercisesToDisplay);
@@ -51,14 +63,19 @@ function createExerciseDropdown(exercises) {
     // Function to add more exercises dynamically
     function addExercise(currentExercise) {
         const workoutType = document.getElementById("workout-type").value;
-        const exercisesToDisplay = workoutType === "Custom" 
-            ? [...exerciseMaster.Push, ...exerciseMaster.Pull, ...exerciseMaster.Legs, ...exerciseMaster.Accessories] 
-            : exerciseMaster[workoutType];
-        
-        // Append a new exercise dropdown
-        createExerciseDropdown(exercisesToDisplay);
-        }
-    
-        // Initialize by loading exercises for default workout type
-        window.onload = loadExercises;
+        fetch("exerciseMaster.json")
+            .then(response => response.json())
+            .then(exerciseMaster => {
+                let exercisesToDisplay = workoutType === "Custom" 
+                    ? [...exerciseMaster.Push, ...exerciseMaster.Pull, ...exerciseMaster.Legs, ...exerciseMaster.Custom] 
+                    : exerciseMaster[workoutType];
+                
+                // Append a new exercise dropdown
+                createExerciseDropdown(exercisesToDisplay);
+            })
+            .catch(error => {
+                console.error("Error loading exercise data:", error);
+                alert("There was an error loading the exercise data.");
+            });
+    }
 }
