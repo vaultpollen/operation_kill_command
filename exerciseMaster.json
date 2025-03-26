@@ -1,6 +1,6 @@
 {
         "Push": [
-        { "name": "Pushup", "type": "push" },
+        { "name": "Pushup", "type": "bodyweight" },
         { "name": "Overhead Press", "type": "weight" },
         { "name": "Chest Squeeze", "type": "weight" },
         { "name": "Tricep Dip", "type": "bodyweight" },

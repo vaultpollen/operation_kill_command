@@ -1,31 +1,26 @@
-function selectDay(day) {
-    const resultDiv = document.getElementById('selected-day');
-    resultDiv.textContent = `You've selected: ${day}`;
+async function fetchExerciseData() {
+    try {
+        const response = await fetch('exerciseMaster.json');
+        if (!response.ok) throw new Error('Failed to fetch exercise data');
+        return await response.json();
+        
+    } catch (error) {
+        console.error('Error loading exercise data:', error);
+        return{};
+    }
 }
 
-function loadExercises(workoutType) {
+async function loadExercises(workoutType) {
+    const exerciseMaster = await fetchExerciseData();
     const exerciseListContainer = document.getElementById("exercise-list");
     exerciseListContainer.innerHTML = "";
 
-    fetch("exerciseMaster.json")
-        .then(response => response.json())
-        .then(exerciseMaster => {
-            let exercisesToDisplay = workoutType === "Custom"
-            ? [...exerciseMaster.Push, ...exerciseMaster.Pull, ...exerciseMaster.Legs, ...exercuseMaster.Custom]
-            : exerciseMaster[workoutType];
-
-            createExerciseDropdown(exercisesToDisplay);
-        })
-        .catch(error => {
-            console.error("Error loading exercise data:", error);
-        });
-
     let exercisesToDisplay = [];
 
-    if (workoutType == "Custom") {
-        exercisesToDisplay = [...exerciseMaster.Push, ...exerciseMaster.Pull, ...exerciseMaster.Legs, ...exerciseMaster.Accessories];
+    if (workoutType === "Custom") {
+        exercisesToDisplay = [...exerciseMaster.Push, ...exerciseMaster.Pull, exerciseMaster.Legs, ...exerciseMaster.Accessories || []];
     } else {
-        exercisesToDisplay = exerciseMaster[workoutType];
+        exercisesToDisplay = exerciseMaster[workoutType] || [];
     }
 
     createExerciseDropdown(exercisesToDisplay);
@@ -34,48 +29,36 @@ function loadExercises(workoutType) {
 function createExerciseDropdown(exercises) {
     const exerciseListContainer = document.getElementById("exercise-list");
 
+    // Create a new exercise container
+    const exerciseDiv = document.createElement("div");
+    exerciseDiv.classList.add("exercise-container");
+
+    // Create a dropdown with all exercises from the category
+    const exerciseDropDown = document.createElement("select");
+    exerciseDropDown.classList.add("exercise-dropdown");
+
+    // Populate the dropdown with exercise options
     exercises.forEach(exercise => {
-        const exerciseDiv = document.createElement("div");
-        exerciseDiv.classList.add("exercise-container");
-
-        const exerciseDropDown = document.createElement("select");
-        exerciseDropDown.classList.add("exercise-dropdown");
-
-        // Create an option for each exercise
         const option = document.createElement("option");
         option.value = exercise.name;
         option.textContent = exercise.name;
         exerciseDropDown.appendChild(option);
-
-        // Append the dropdown
-        exerciseDiv.appendChild(exerciseDropdown);
-
-        // Append a + button for more exercises
-        const addButton = document.createElement("span");
-        addButton.classList.add("add-exercise");
-        addButton.textContent = "+";
-        addButton.onclick = () => addExercise(exercise.name);
-        exerciseDiv.appendChild(addButton);
-
-        exerciseListContainer.appendChild(exerciseDiv);
     });
 
+    // Append the dropdown
+    exerciseDiv.appendChild(exerciseDropDown);
+
+    // Append a button to add more exercises
+    const addButton = document.createElement("button");
+    addButton.classList.add("add-exercise");
+    addButton.textContent = "+ Add Exercise";
+    addButton.onclick = () => createExerciseDropdown(exercises);
+    exerciseDiv.appendChild(addButton);
+
+    exerciseListContainer.appendChild(exerciseDiv);
+
     // Function to add more exercises dynamically
-    function addExercise(currentExercise) {
-        const workoutType = document.getElementById("workout-type").value;
-        fetch("exerciseMaster.json")
-            .then(response => response.json())
-            .then(exerciseMaster => {
-                let exercisesToDisplay = workoutType === "Custom" 
-                    ? [...exerciseMaster.Push, ...exerciseMaster.Pull, ...exerciseMaster.Legs, ...exerciseMaster.Custom] 
-                    : exerciseMaster[workoutType];
-                
-                // Append a new exercise dropdown
-                createExerciseDropdown(exercisesToDisplay);
-            })
-            .catch(error => {
-                console.error("Error loading exercise data:", error);
-                alert("There was an error loading the exercise data.");
-            });
+    function addExercise(currentExercise, availableExercises) {
+        createExerciseDropdown(availableExercises)
     }
 }
