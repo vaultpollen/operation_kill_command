@@ -1,0 +1,26 @@
+{
+    const exerciseMaster = {
+        "Push": [
+        { "name": "Pushup", "type": "bodyweight" },
+        { "name": "Overhead Press", "type": "weight" },
+        { "name": "Chest Squeeze", "type": "weight" },
+        { "name": "Tricep Dip", "type": "bodyweight" },
+        { "name": "Lateral Raise", "type": "weight" },
+        { "name": "Skullcrushers", "type": "weight" },
+        { "name": "Front Lateral Raise", "type": "weight" },
+        { "name": "Tricep Kickbacks", "type": "weight" },
+        { "name": "Dumbbell Chest Press", "type": "weight" },
+        { "name": "Chest Fly Machine", "type": "weight" },
+        { "name": "Smith Bench Press", "type": "weight" },
+        { "name": "Incline Press Machine", "type": "weight" },
+        { "name": "EZ-Curl Skullcrushers", "type": "weight" },
+        { "name": "Dumbbell Overhead", "type": "weight" },
+        { "name": "Tricep Extension Machine", "type": "weight" },
+        { "name": "Bench Press", "type": "weight" },
+        { "name": "Band Crossover", "type": "band" },
+        { "name": "Band Tricep Extension", "type": "band" },
+        { "name": "Band Front Lat Raise", "type": "band" }
+        ]
+    }
+  }
+  
