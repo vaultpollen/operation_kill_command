@@ -1,4 +1,4 @@
-async function fetchJSON() {
+async function fetchExerciseData() {
     try {
         const response = await fetch('exerciseMaster.json');
         if (!response.ok) throw new Error('Failed to fetch exercise data');
