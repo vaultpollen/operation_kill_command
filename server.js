@@ -8,6 +8,14 @@ const port = 3000;
 //Enable Express to parse JSON bodies
 app.use(express.json());
 
+// Serve static files
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Root URL
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+})
+
 // Serve exerciseMaster.json
 app.get('/exerciseMaster.json', (req, res) => {
     fs.readFile(path.join(__dirname, 'exerciseMaster.json'), 'utf-8', (err, data) => {
