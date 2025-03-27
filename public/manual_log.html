@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport content="width=device-width, initial-scale="1.0">
+    <Title>Manual Log Entry</Title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <h1>Manual Log Entry</h1>
+    </div>
+    <form id="manual-log-form">
+        <label for="exercise">Exercise:</label>
+        <select id="exercise" name="exercise">
+            <!-- To be populated with an exercise from the dropdown -->
+        </select><br><br>
+
+        <label for="lastPerformed">Last performed Date:</label>
+        <input type="date" id="lastPerformed" name="lastPerformed"><br><br>
+
+        <label for="set">Working Set Reps:</label>
+        <input type="number" id="set1" name="set1"><br>
+        <input type="number" id="set2" name="set2"><br>
+        <input type="number" id="set3" name="set3"><br>
+
+        <label for="type">Exercise Type:</label>
+        <select id="type" name="type">
+            <option value="bodyweight">Bodyweight</option>
+            <option value="weight">Weight</option>
+            <option value="band">band</option>
+        </select><br><br>
+
+        <label for="newSet">New Set Reps:</label>
+        <input type="number" id="newSet1" name="newSet1"><br>
+        <input type="number" id="newSet2" name="newSet2"><br>
+        <input type="number" id="newSet3" name="newset3"><br><br>
+
+        <button type="button" onclick="commitLongEntry()">Commit</button>
+    </form>
+</body>

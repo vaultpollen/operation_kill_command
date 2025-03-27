@@ -30,6 +30,12 @@
     animation: fadeIn 3s ease-out forwards; /* Slow fade-in animation */
   }
 
+  a {
+    text-align: center;
+    color: #e11d48;
+    font-size: 16;
+  }
+
   #exercise-list-container {
     width: 100%;
     display: flex;
@@ -71,6 +77,10 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
     margin-top: 10px;
+  }
+
+  .heatmap-item {
+    color: black;
   }
 
   .exercise-item {

@@ -48,8 +48,25 @@
       {"name": "Wide Lat Pulldown", "type": "weight"}
       ],
       "Legs": [
-
-      ],
+        {"name":"Pistol Squat","type":"bodyweight"},
+        {"name":"Romanian Deadlift","type":"weight"},
+        {"name":"Band Squat","type":"band"},
+        {"name":"Lying Hamstring Curl","type":"weight"},
+        {"name":"Calf Raises","type":"bodyweight"},
+        {"name":"Clam Walk","type":"band"},
+        {"name":"Leg Extensions","type":"weight"},
+        {"name":"Smith Squat","type":"weight"},
+        {"name":"Smith Front Squat","type":"weight"},
+        {"name":"Front Squat","type":"weight"},
+        {"name":"Leg Press","type":"weight"},
+        {"name":"Lunges","type":"bodyweight"},
+        {"name":"Bulgarian Split Squat","type":"bodyweight"},
+        {"name":"Seated Hamstring Curl","type":"weight"},
+        {"name":"Calf Raise Machine","type":"weight"},
+        {"name":"Back Squat","type":"weight"},
+        {"name":"Back Squat (P)","type":"weight"},
+        {"name":"Banded Split Squat","type":"band"}
+        ],
       "Accessories": [
 
       ]

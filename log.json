@@ -2,7 +2,7 @@
   "workouts": [
     {
       "exercise": "Band Curls",
-      "lastPerformed": "2025-02-24",
+      "lastPerformed": "2025-03-01",
       "log": [
         {
           "date": "2025-02-24",
@@ -24,7 +24,7 @@
     },
     {
       "exercise": "Band Deadlift",
-      "lastPerformed": "2025-02-24",
+      "lastPerformed": "2025-03-14",
       "log": [
         {
           "date": "2025-02-24",
@@ -90,7 +90,7 @@
     },
     {
       "exercise": "Band Row",
-      "lastPerformed": "2025-02-24",
+      "lastPerformed": "2025-02-28",
       "log": [
         {
           "date": "2025-02-24",
@@ -134,7 +134,7 @@
     },
     {
       "exercise": "Band Upright Row",
-      "lastPerformed": "2025-02-24",
+      "lastPerformed": "2025-03-25",
       "log": [
         {
           "date": "2025-02-24",
@@ -288,7 +288,7 @@
     },
     {
       "exercise": "Dumbbell Deadlift",
-      "lastPerformed": "2025-02-24",
+      "lastPerformed": "2025-03-20",
       "log": [
         {
           "date": "2025-02-24",
@@ -952,6 +952,402 @@
       "log": [
         {
           "date": "2025-02-24",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "band",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Pistol Squat",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "bodyweight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Romanian Deadlift",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Band Squat",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "band",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Lying Hamstring Curl",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Calf Raises",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "bodyweight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Clam Walk",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "band",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Leg Extensions",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Smith Squat",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Smith Front Squat",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Front Squat",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Leg Press",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Lunges",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "bodyweight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Bulgarian Split Squat",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "bodyweight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Seated Hamstring Curl",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Calf Raise Machine",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Back Squat",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Back Squat (P)",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
+          "set": [
+            0,
+            0,
+            0
+          ],
+          "type": "weight",
+          "newGoal": {
+            "newSet": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exercise": "Banded Split Squat",
+      "lastPerformed": "2025-02-25",
+      "log": [
+        {
+          "date": "2025-02-25",
           "set": [
             0,
             0,
