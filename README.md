@@ -6,6 +6,7 @@ To do:
 - Allow user to "Uncommit" a workout and remove it from the session if they decide to
 - Make input boxes look nicer. Stack them and order them
 - Display new goal from JSON log
+- More styling
 - Update exercise last performed date once the user commits it
 - Default empty inputs after commit to 0 if no input
 - Add a second add exercise button that appears after the user begins their workout to add more input boxes
