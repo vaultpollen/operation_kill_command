@@ -12,3 +12,4 @@ To do:
 - Put rest timer buttons on each exercise (customizable)
 - Add a page for manual log entries
 - Add a page for instructions
+- Consider repurposing the more complicated concepts with Python and Django or Flask
