@@ -2,6 +2,7 @@
 Web app to track and plan workouts based on my own training principles. Currently can only be spun up using a local node.js server.
 
 To do:
+- Add code link to website
 - Remove begin workout button after pressing it
 - Allow user to "Uncommit" a workout and remove it from the session if they decide to
 - Make input boxes look nicer. Stack them and order them
