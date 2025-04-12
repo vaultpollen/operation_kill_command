@@ -1,5 +1,5 @@
 async function populateDropdown() {
-    const exerciseMaster = await fetch("/api/exerciseMaster");
+    const exerciseMaster = await fetch("exerciseMaster.json");
     response = await exerciseMaster.json();
     const exerciseDropdown = document.getElementById("exercise");
     //const option = document.createElement("option");
@@ -25,7 +25,7 @@ async function updateLogTable() {
     const outputContainer = document.getElementById("log-output");
 
     try {
-        const res = await fetch("/api/log");
+        const res = await fetch("log.json");
         const logs = await res.json();
 
         const workout = logs.workouts.find(entry => entry.exercise === selectedExercise);
