@@ -49,7 +49,7 @@ async function updateLogTable() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>${workouts.lastPerformed}</td>
+                        <td>${workout.lastPerformed}</td>
                         <td>${set[0]}</td>
                         <td>${set[1]}</td>
                         <td>${set[2]}</td>
