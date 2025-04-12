@@ -1,5 +1,5 @@
 async function populateDropdown() {
-    const exerciseMaster = await fetch("/api/exercises");
+    const exerciseMaster = await fetch("/api/exerciseMaster");
     response = await exerciseMaster.json();
     const exerciseDropdown = document.getElementById("exercise");
     //const option = document.createElement("option");
