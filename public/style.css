@@ -257,6 +257,7 @@
   .log-table th, .log-table td {
     border: 1px solid #ddd;
     padding: 8px;
+    color: #ff0000;
     text-align: center;
   }
 
