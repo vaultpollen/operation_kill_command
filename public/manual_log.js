@@ -1,5 +1,5 @@
 async function populateDropdown() {
-    const exerciseMaster = await fetch("exerciseMaster.json");
+    const exerciseMaster = await fetch("/api/exercises");
     response = await exerciseMaster.json();
     const exerciseDropdown = document.getElementById("exercise");
     //const option = document.createElement("option");
@@ -25,7 +25,7 @@ async function updateLogTable() {
     const outputContainer = document.getElementById("log-output");
 
     try {
-        const res = await fetch("log.json");
+        const res = await fetch("/api/log");
         const logs = await res.json();
 
         const workout = logs.workouts.find(entry => entry.exercise === selectedExercise);
@@ -65,3 +65,12 @@ async function updateLogTable() {
         outputContainer.innerHTML = "<p>Error loading log data.</p><br>"
     }
 }
+
+// Use later for saving log data
+/*
+await fetch('/api/log', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(updatedLog),
+});
+*/
