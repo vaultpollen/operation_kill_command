@@ -36,7 +36,7 @@ async function updateLogTable() {
         }
 
         const logEntry = workout.log[0];
-        const { lastPerformed, set, newGoal } = logEntry;
+        const { set, newGoal } = logEntry;
 
         outputContainer.innerHTML = `
             <table class="log-table">
@@ -49,7 +49,7 @@ async function updateLogTable() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>${workout.lastPerformed}</td>
+                        <td>${lastPerformed}</td>
                         <td>${set[0]}</td>
                         <td>${set[1]}</td>
                         <td>${set[2]}</td>
